@@ -9,8 +9,10 @@ class AllResultsArgs {
   final String query;
   final Repository repositoryProvider;
   final ListProvider listProvider;
+  final TextEditingController controller;
+  final FocusNode focus;
 
-  AllResultsArgs(this.query, this.repositoryProvider, this.listProvider);
+  AllResultsArgs(this.query, this.repositoryProvider, this.listProvider, this.controller, this.focus);
 }
 
 class AllResults extends StatefulWidget {
@@ -70,7 +72,9 @@ class _AllResultsState extends State<AllResults> {
                           listProvider: args.listProvider,
                           repositoryProvider: args.repositoryProvider,
                           result: result,
-                        )
+                          controller: args.controller,
+                          focus: args.focus,
+                          )
                     ]),
                   );
                 }

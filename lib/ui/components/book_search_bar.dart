@@ -206,7 +206,9 @@ class _BookSearchBarState extends State<BookSearchBar> {
                                             arguments: AllResultsArgs(
                                                 _searchController.text,
                                                 widget.repositoryProvider,
-                                                widget.listProvider));
+                                                widget.listProvider,
+                                                _searchController,
+                                                _searchFocus));
                                       },
                                       child: Container(
                                         width:

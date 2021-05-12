@@ -28,6 +28,8 @@ class BookResultTile extends StatelessWidget {
       children: [
         GestureDetector(
           onTap: () {
+            controller.clear();
+            focus.unfocus();
             Navigator.pushNamed(context, '/book-preview',
                 arguments: BookPreviewArgs(
                     result.link,
