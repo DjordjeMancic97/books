@@ -6,4 +6,5 @@ Organize your books and enhance reading experience.
   <img src="https://github.com/DjordjeMancic97/books/blob/main/assets/screenshots/Screenshot_20210512_170436_com.example.books.jpg" width="200" height="400">
   <img src="https://github.com/DjordjeMancic97/books/blob/main/assets/screenshots/Screenshot_20210512_170453_com.example.books.jpg" width="200" height="400">
   <img src="https://github.com/DjordjeMancic97/books/blob/main/assets/screenshots/Screenshot_20210512_170500_com.example.books.jpg" width="200" height="400">
+  <img src="https://github.com/DjordjeMancic97/books/blob/main/assets/screenshots/Screenshot_20210512_174822_com.example.books.jpg" width="200" height="400">
 </p>
